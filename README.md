@@ -15,7 +15,7 @@ cd nest-and-react-email
 
 **Note**: The react-email package currently has an incompatible package with our project so we need to provide a resolution for those packages. Open the package.json file and add the following
 
-```json
+```js
 {
   // ...
 
@@ -68,7 +68,7 @@ export default function Email({ url }) {
 
 **Note**: If you get some typescript error, add the following to your tsconfig.json to clear the error.
 
-```json
+```js
 {
   "compilerOptions": {
     "jsx": "react"
