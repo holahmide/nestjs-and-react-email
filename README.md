@@ -9,6 +9,7 @@ Refer to the official docs of NestJs [here](https://docs.nestjs.com/#installatio
 Open your terminal and run the following command to setup a new nestjs project
 
 ```bash
+yarn global add @nestjs/cli
 nest new nest-and-react-email
 cd nest-and-react-email
 ```
